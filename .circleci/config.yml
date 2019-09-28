@@ -12,4 +12,9 @@ jobs:
       - run:
           name: Activate venv
           command: source venv/bin/activate
-          
+      - run:
+          name: Install requirements
+          command: |
+            source venv/bin/activate
+            pip install -r requirements.txt
+
