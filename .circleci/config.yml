@@ -45,3 +45,9 @@ jobs:
           command: |
             source venv/bin/activate
             pytest -s
+
+workflows:
+  vesion: 2
+  build_and_test:
+    jobs:
+      - build
