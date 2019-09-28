@@ -9,3 +9,7 @@ jobs:
       - run:
           name: Create virtualenv
           command: python -m venv venv
+      - run:
+          name: Activate venv
+          command: source venv/bin/activate
+          
