@@ -47,7 +47,8 @@ jobs:
             pytest -s
 
 workflows:
-  vesion: 2
+  version: 2
   build_and_test:
     jobs:
       - build
+      - test
