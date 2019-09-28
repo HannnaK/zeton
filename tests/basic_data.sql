@@ -24,7 +24,7 @@ VALUES(1,
        0,
        0);
 
-INSERT INTO caregiver_to_chil
+INSERT INTO caregiver_to_child
 VALUES (1, 1, 2);
 
 INSERT INTO bans_name
